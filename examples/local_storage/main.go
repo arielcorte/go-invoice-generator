@@ -34,16 +34,16 @@ func main() {
 	doc.SetDate("02/03/2021")
 	doc.SetPaymentTerm("02/04/2021")
 
-	doc.SetCompany(&generator.Contact{
-		Name: "Test Company",
-		Address: &generator.Address{
-			Address:    "89 Rue de Brest",
-			Address2:   "Appartement 2",
-			PostalCode: "75000",
-			City:       "Paris",
-			Country:    "France",
-		},
-	})
+	// doc.SetCompany(&generator.Contact{
+	// 	Name: "Test Company",
+	// 	Address: &generator.Address{
+	// 		Address:    "89 Rue de Brest",
+	// 		Address2:   "Appartement 2",
+	// 		PostalCode: "75000",
+	// 		City:       "Paris",
+	// 		Country:    "France",
+	// 	},
+	// })
 
 	doc.SetCustomer(&generator.Contact{
 		Name: "Test Customer",
